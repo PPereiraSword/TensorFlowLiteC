@@ -16,9 +16,9 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(name: "TensorFlowLiteC", url: "https://github.com/jonathaplima/TensorFlowLiteC/releases/download/v0.0.4/TensorFlowLiteC.xcframework.patched.zip", checksum: "ac209bf90faa853dd0228337811a8bd08cbefa125a72686e57d8fb22e0947e09"),
-        .binaryTarget(name: "TensorFlowLiteCCoreML", url: "https://github.com/jonathaplima/TensorFlowLiteC/releases/download/v0.0.4/TensorFlowLiteCCoreML.xcframework.patched.zip", checksum: "78a55f49252bade22a7f399a6000b058d07ca775f7ea0108b2a6f630c9b043ed"),
-        .binaryTarget(name: "TensorFlowLiteCMetal", url: "https://github.com/jonathaplima/TensorFlowLiteC/releases/download/v0.0.4/TensorFlowLiteCMetal.xcframework.patched.zip", checksum: "44e7f7e15edf1b68b689560e5be1b24723681f1ac70b3cc83ee05633c25acb4e"),
+        .binaryTarget(name: "TensorFlowLiteC", url: "https://github.com/jonathaplima/TensorFlowLiteC/releases/download/v0.0.5/TensorFlowLiteC.xcframework.patched.zip", checksum: "cd411fbe9404158fa640f480a0dce00825de229367535f9bdc4e710cfe8aa3c8"),
+        .binaryTarget(name: "TensorFlowLiteCCoreML", url: "https://github.com/jonathaplima/TensorFlowLiteC/releases/download/v0.0.5/TensorFlowLiteCCoreML.xcframework.patched.zip", checksum: "c2c1c95bc8806b2bea4ff2498260c32e6306b0086f4b256535b7fb7b6d3bf49f"),
+        .binaryTarget(name: "TensorFlowLiteCMetal", url: "https://github.com/jonathaplima/TensorFlowLiteC/releases/download/v0.0.5/TensorFlowLiteCMetal.xcframework.patched.zip", checksum: "35ce267af898f0214c0e267008a3ef7e20b1d446cfc8257f6db29fcc676f9193"),
         .target(name: "Link",
                 linkerSettings: [.linkedLibrary("c++")]),
     ]
